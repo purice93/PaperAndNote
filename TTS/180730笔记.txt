@@ -1,0 +1,51 @@
+这几年语音合成的研究进展都有很大的突破，有很多优秀的研究成果，
+比如char2wav, tacotron以及wavenet等，seq2seq、GAN以及波形建模也都取得了不错的效果。
+语音合成的研究热度和应用需求都在不断上升中。
+
+
+语音合成目前的问题
+
+1. 合成的速度，工业界要求快速，但目前有些技术并不能做到实时合成
+
+2. 不够自然
+
+3. 工业界和学术界的分别（工业界依然还是拼接合成，但是学术界已经不主要研究这个了）
+
+4. 目前大量的语言仍然无法合成，而且针对不同的语言需要独立分析，例如需要寻找一个合适的phoneset
+
+5. 工业界中的语音合成仍然需要大量的人工介入，例如专业的发音员，需要在录音棚录音，人工转换成文本，人工做align的检查，添加特定的词汇到发声词典
+
+6. proper intonation 合适的语调（韵律）
+
+7. 个性化语音合成（快速地模仿一个人的声音
+
+8. 歌唱以及情感语音合成
+
+9. 儿童的语音合成
+
+如何获取当前语音合成的最新进展
+
+1. 关注the Blizzard Challenge, 语音合成的年度比赛，例如2016年的比赛结果http://festvox.org/blizzard/bc2016/blizzard2016_overview_paper.pdf
+
+2. 关注interspeech，例如2016年interspeech上的论文http://www.isca-speech.org/archive/Interspeech_2016/index.html
+
+3. 关于大公司如谷歌、百度、科大讯飞，以及相关研究机构/学校的进展如中科院、爱丁堡大学等
+
+
+
+语音合成
+WIKI Speech synthesis （https://en.wikipedia.org/wiki/Speech_synthesis）
+论文：WaveNet:A Generative Model for Raw Audio （https://arxiv.org/abs/1609.03499）
+论文：Tacotron:Towards End-to-End Speech Synthesis
+（https://arxiv.org/abs/1703.10135）
+论文：DeepVoice 2: Multi-Speaker Neural Text-to-Speech
+（https://arxiv.org/abs/1705.08947）
+资源： TheWorld English Bible （https://github.com/Kyubyong/tacotron）
+资源： LJSpeech Dataset （https://github.com/keithito/tacotron）
+资源： LessacData
+（http://www.cstr.ed.ac.uk/projects/blizzard/2011/lessac_blizzard2011/）
+竞赛：Blizzard Challenge 2017 （https://synsig.org/index.php/Blizzard_Challenge_2017）
+PRODUCT Lyrebird （https://lyrebird.ai/）
+项目： TheFestvox project （http://www.festvox.org/index.html）
+工具包：Merlin: The Neural Network （NN） based Speech Synthesis
+System（https://github.com/CSTR-Edinburgh/merlin）
